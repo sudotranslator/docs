@@ -1,6 +1,6 @@
 This tutorial shows you how to run a full node and meet the requirements 
 to apply to becoming a masternode candidate on Shifu, 
-you have to run the [Tao client](https://github.com/taoblockchain/taoblockchain), 
+you have to run the [Tao client](https://github.com/Tao-Network/taoblockchain), 
 which is our Tao implementation written in _Go_.
 
 ## General hardware notice
@@ -36,7 +36,7 @@ please tell us more about on our [Gitter](https://gitter.im/taoblockchain).
 
 ## taomn
 
-We made a simple command line interface called [taomn](https://github.com/taoblockchain/masternode) 
+We made a simple command line interface called [taomn](https://github.com/Tao-Network/masternode) 
 to easily and quickly start a Tao full node.
 It takes care of starting the necessary docker containers with the proper settings for you.
 It will really suit you if you don't already have a big infrastructure running.

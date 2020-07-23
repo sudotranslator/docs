@@ -220,7 +220,7 @@ python3 --version
 This topic is optional, but highly recommended.
 If the default SSH port is not changed, you could see nefarious connection-attempts in a short time-period.
 
-[Look at our wiki security doc for more details](https://github.com/taoblockchain/docs/wiki/Security-of-Masternodes)
+[Look at our wiki security doc for more details](https://github.com/Tao-Network/docs/wiki/Security-of-Masternodes)
 
 At a minimum, you will want to consider:
 
@@ -528,7 +528,7 @@ Contents to come: `taomn status`; `taomn inspect`; `top` command; https://stats.
 
 ## 10. Jumpstart the chaindata (Optional)
 
-[Full Jumpstart instructions can be found here](https://github.com/taoblockchain/docs/wiki/Update-stuck-node-or-Jumpstart-chain-sync)
+[Full Jumpstart instructions can be found here](https://github.com/Tao-Network/docs/wiki/Update-stuck-node-or-Jumpstart-chain-sync)
 
 The basic structure has been created, blocks have started synchronizing, and now we want to speed up the process by pulling in the latest chaindata.
 
@@ -607,7 +607,7 @@ pip3 show taomn
 taomn start --name Atlantis --net mainnet --pkey cf03cb58************
 taomn status; taomn inspect; taomn --help
 
-# Enact Jumpstart: https://github.com/taoblockchain/docs/wiki/Update-stuck-node-or-Jumpstart-chain-sync
+# Enact Jumpstart: https://github.com/Tao-Network/docs/wiki/Update-stuck-node-or-Jumpstart-chain-sync
 ```
 
 ---

@@ -2,8 +2,8 @@ This guide will show you how to start a Waihui DEX on your server.
 
 To start, you need to download Waihui-SDK source code, and it includes two parts:
 
-* [Waihui-SDK](https://github.com/taoblockchain/waihui-sdk): Backend server, API, it requires Mongodb database with rabbitmq.
-* [Waihui-SDK-UI](https://github.com/taoblockchain/waihui-sdk-ui): Frontend - DEX UI, requires NodeJs, React
+* [Waihui-SDK](https://github.com/Tao-Network/waihui-sdk): Backend server, API, it requires Mongodb database with rabbitmq.
+* [Waihui-SDK-UI](https://github.com/Tao-Network/waihui-sdk-ui): Frontend - DEX UI, requires NodeJs, React
 
 To enable trading for your DEX, you need to register your DEX on TaoRelayer by depositing 25K TAO.
 
@@ -78,19 +78,19 @@ docker run -d -p 5672:5672 --name rabbitmq rabbitmq:3.8
 
 ### Waihui SDK Backend
 
-Download `waihui-sdk` binary from [Waihui-SDK Github Releases](https://github.com/taoblockchain/waihui-sdk/releases).
+Download `waihui-sdk` binary from [Waihui-SDK Github Releases](https://github.com/Tao-Network/waihui-sdk/releases).
 
 E.g:
 ```
-wget https://github.com/taoblockchain/waihui-sdk/releases/download/v1.0.1-beta/waihui-sdk.v1.0.1-beta.linux.amd64 -O waihui-sdk
+wget https://github.com/Tao-Network/waihui-sdk/releases/download/v1.0.1-beta/waihui-sdk.v1.0.1-beta.linux.amd64 -O waihui-sdk
 chmod +x waihui-sdk
 ```
 
 Or you can build the binary from the source code by following the steps below:
 
-Clone [waihui-sdk](https://github.com/taoblockchain/waihui-sdk.git) to your server:
+Clone [waihui-sdk](https://github.com/Tao-Network/waihui-sdk.git) to your server:
 
-`$ git clone https://github.com/taoblockchain/waihui-sdk.git`
+`$ git clone https://github.com/Tao-Network/waihui-sdk.git`
 
 Go to `waihui-sdk` and create and edit your config file.
 ```
@@ -121,21 +121,21 @@ Note: `waihui-sdk` requires `./config/config.yaml` and `./config/errors.yaml` fi
 To run waihui-sdk as daemon service, you can use `pm2`, `supervisord` or `systemd`.
 
 ### Waihui SDK UI ###
-Download the site from [Waihui-SDK-UI Github Releases](https://github.com/taoblockchain/waihui-sdk-ui/releases)
+Download the site from [Waihui-SDK-UI Github Releases](https://github.com/Tao-Network/waihui-sdk-ui/releases)
 
 E.g:
 ```
 # download
-wget https://github.com/taoblockchain/waihui-sdk-ui/releases/download/v1.0.1-beta/waihui-sdk-ui.v1.0.1-beta.testnet.tar.gz
+wget https://github.com/Tao-Network/waihui-sdk-ui/releases/download/v1.0.1-beta/waihui-sdk-ui.v1.0.1-beta.testnet.tar.gz
 # uncompress
 tar xvzf waihui-sdk-ui.v1.0.1-beta.testnet.tar.gz
 ```
 
 Or you can build the site by following the steps below:
 
-Clone [waihui-sdk-ui](https://github.com/taoblockchain/waihui-sdk-ui.git) to your server:
+Clone [waihui-sdk-ui](https://github.com/Tao-Network/waihui-sdk-ui.git) to your server:
 ```bash
-git clone https://github.com/taoblockchain/waihui-sdk-ui.git
+git clone https://github.com/Tao-Network/waihui-sdk-ui.git
 ```
 Go to `waihui-sdk-ui` to update the `env` file:
 ```

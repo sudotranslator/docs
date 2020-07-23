@@ -38,7 +38,7 @@ extra:
     disqus:
     social:
         - type: 'github'
-          link: 'https://github.com/taoblockchain'
+          link: 'https://github.com/Tao-Network'
         - type: 'twitter'
           link: 'https://twitter.com/taoblockchain'
         - type: 'telegram'
@@ -47,7 +47,7 @@ extra:
           link: 'https://medium.com/taoblockchain'
 
 site_url: https://docs.tao.network
-repo_url: https://github.com/taoblockchain/docs
+repo_url: https://github.com/Tao-Network/docs
 repo_name: tao/docs
 google_analytics: ['UA-124597188-1', 'docs.tao.network']
 
@@ -115,4 +115,4 @@ nav:
         - Policy Privacy: ecosystem/taoissuer/policyprivacy.md
     #   - Getting started: misc/wip.md
     #   - Contributing: misc/wip.md
-copyright: If you wish to improve this site, please <a href="https://github.com/taoblockchain/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/taoblockchain/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>Ta0Docs v0.1.0. Tao Project 2020.
+copyright: If you wish to improve this site, please <a href="https://github.com/Tao-Network/docs/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/Tao-Network/docs/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>Ta0Docs v0.1.0. Tao Project 2020.

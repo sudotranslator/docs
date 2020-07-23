@@ -16,13 +16,13 @@ export GOPATH=$HOME/go
 #### Build from source code
 Create new directory for the project
 ```bash
-mkdir -p $GOPATH/src/github.com/taoblockchain/tao2/
-cd $GOPATH/src/github.com/taoblockchain/
+mkdir -p $GOPATH/src/github.com/Tao-Network/tao2/
+cd $GOPATH/src/github.com/Tao-Network/
 ```
 
 - Download source code and build
 ```bash
-git clone https://github.com/taoblockchain/tao2.git tao2
+git clone https://github.com/Tao-Network/tao2.git tao2
 cd tao2
 ```
 
@@ -37,13 +37,13 @@ git checkout v1.4.1
 make all
 ```
 
-- Binary file should be generated in build folder `$GOPATH/src/github.com/taoblockchain/tao2/build/bin`
+- Binary file should be generated in build folder `$GOPATH/src/github.com/Tao-Network/tao2/build/bin`
 ```bash
-alias tao=$GOPATH/src/github.com/taoblockchain/tao2/build/bin/tao
+alias tao=$GOPATH/src/github.com/Tao-Network/tao2/build/bin/tao
 ```
 
 #### Download Tao binary from Github release page
-Download tao binary from our [releases page](https://github.com/taoblockchain/tao2/releases)
+Download tao binary from our [releases page](https://github.com/Tao-Network/tao2/releases)
 
 ```bash
 alias tao=path/to/tao/binary
@@ -173,7 +173,7 @@ tao  --syncmode "full" \
            
 --gcmode: blockchain garbage collection mode ("full", "archive")
            
---synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/taoblockchain/tao2/blob/master/eth/downloader/modes.go#L24)
+--synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/Tao-Network/tao2/blob/master/eth/downloader/modes.go#L24)
            
 --ethstats: send data to stats website
 

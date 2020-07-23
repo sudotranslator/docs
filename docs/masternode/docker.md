@@ -2,7 +2,7 @@ Alternatively to using our simple tool `taomn`, people or companies with existin
 
 To achieve that, you just need to run our `tao/node` docker image.
 
-This image runs the [Tao go client](https://github.com/taoblockchain/taoblockchain) with some automation added on top.
+This image runs the [Tao go client](https://github.com/Tao-Network/taoblockchain) with some automation added on top.
 
 ## Tags
 

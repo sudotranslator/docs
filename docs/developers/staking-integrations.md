@@ -1,6 +1,6 @@
 Masternodes and stakers is stored and governared in [Tao Validator smart contract](https://scan.tao.network/address/0x0000000000000000000000000000000000000088):
 
-- Smart Contract Code: [Tao Validator](https://github.com/taoblockchain/shifu/blob/master/contracts/TaoValidator.sol)
+- Smart Contract Code: [Tao Validator](https://github.com/Tao-Network/shifu/blob/master/contracts/TaoValidator.sol)
 - Smart Contract ABI: [TaoValidatorAbi.json](https://raw.githubusercontent.com/taoblockchain/shifu/master/abis/TaoValidatorAbi.json)
 
 Tao Validator Smart Contract Interface:

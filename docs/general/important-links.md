@@ -2,7 +2,7 @@
 
 - [Main website](https://tao.network)
 - [Technical Whitepaper](https://docs.tao.network/wp-and-research/technical-whitepaper/)
-- [Github](https://github.com/taoblockchain/tao2)
+- [Github](https://github.com/Tao-Network/tao2)
 
 ## Testnet
 

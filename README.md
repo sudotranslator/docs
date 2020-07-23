@@ -14,7 +14,7 @@ Tao [documentation](https://docs.tao.network).
 Clone the project.
 
 ```bash
-git clone https://github.com/taoblockchain/docs.git
+git clone https://github.com/Tao-Network/docs.git
 ```
 
 Create a virtualenv for this project.

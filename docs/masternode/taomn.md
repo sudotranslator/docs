@@ -1,4 +1,4 @@
-We made a simple command line interface called [taomn](https://github.com/taoblockchain/masternode) to easily and quickly start a Tao masternode.
+We made a simple command line interface called [taomn](https://github.com/Tao-Network/masternode) to easily and quickly start a Tao masternode.
 It takes care of starting the necessary docker containers with the proper settings for you.
 It will really suit you if you don't already have a big infrastructure running.
 Spin up a machine in your favorite cloud and get your masternode running in a few minutes!

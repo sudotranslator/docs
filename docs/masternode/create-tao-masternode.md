@@ -86,7 +86,7 @@ docker-compose version
 
 ## Installation
 
-Download `create-tao-masternode` from the [latest release](https://github.com/taoblockchain/create-tao-masternode/releases/latest).
+Download `create-tao-masternode` from the [latest release](https://github.com/Tao-Network/create-tao-masternode/releases/latest).
 
 Make it executable.
 ```
@@ -169,7 +169,7 @@ For more docker-compose commands, use `docker-compose --help` or refer to their 
 
 ## Migrating from `taomn`
 
-You can find a guide on migrating from `taomn` in the [wiki](https://github.com/taoblockchain/docs/wiki/Migrate-from-taomn-to-docker-compose-with-create-tao-masternode).
+You can find a guide on migrating from `taomn` in the [wiki](https://github.com/Tao-Network/docs/wiki/Migrate-from-taomn-to-docker-compose-with-create-tao-masternode).
 
 For the long time masternode runners who started with our older tool, `taomn`, here are the commands to achieve the same actions.
 

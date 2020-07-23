@@ -18,11 +18,11 @@ docker exec -it mongodb mongo --eval "rs.initiate()"
 
 ## Run a fullnode
 
-Download `tao` version 2.0+ from [Tao Github Release page](https://github.com/taoblockchain/tao2/releases)
+Download `tao` version 2.0+ from [Tao Github Release page](https://github.com/Tao-Network/tao2/releases)
 
 E.g:
 ```
-wget https://github.com/taoblockchain/tao2/releases/download/v2.0.0-beta/tao-linux-amd64 -O tao
+wget https://github.com/Tao-Network/tao2/releases/download/v2.0.0-beta/tao-linux-amd64 -O tao
 chmod +x tao
 sudo mv tao /usr/bin/
 ```
@@ -73,7 +73,7 @@ tao init genesis.json --datadir [YOUR_DATADIR]
 ## Example
 **Testnet**
 ```
-wget https://github.com/taoblockchain/tao2/releases/download/v2.0.0-beta/tao-linux-amd64 -O tao
+wget https://github.com/Tao-Network/tao2/releases/download/v2.0.0-beta/tao-linux-amd64 -O tao
 chmod +x tao
 sudo mv tao /usr/bin/
 tao --version

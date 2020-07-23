@@ -16,7 +16,7 @@ to become a masternode candidate.
 For this, masternode owners should carefully read our dedicated guide to [running a masternode](https://taoblockchain.github.io/docs/masternode/masternode-setup-guide/), 
 using [taomn](https://taoblockchain.github.io/docs/masternode/tmn/) and [Docker](https://taoblockchain.github.io/docs/masternode/docker/).
 Also, masternode owners can follow our [tutorial](https://medium.com/taoblockchain/how-to-run-a-tao-masternode-from-a-to-z-3793752dc3d1) on the Tao Medium page 
-and our [wiki page](https://github.com/taoblockchain/docs/wiki).
+and our [wiki page](https://github.com/Tao-Network/docs/wiki).
 
 
 * For developers: We highly encourage developers to contribute to the development of 

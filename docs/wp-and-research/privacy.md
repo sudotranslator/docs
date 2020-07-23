@@ -240,7 +240,7 @@ with very short proofs and without a trusted setup; the proof size
 is only logarithmic in the witness size. 
 
 TaoP uses Bulletproofs range proof to prove the transaction amount commited in Pedersen commitments is positive.
-Both Bulletproofs and RingCT are implemented in our [privacy SDK](https://github.com/taoblockchain/privacyjs).
+Both Bulletproofs and RingCT are implemented in our [privacy SDK](https://github.com/Tao-Network/privacyjs).
 
 ## Implementation
 
@@ -306,7 +306,7 @@ The privacy smart contract basically verifies:
 Once the transaction is confirmed, `Bob` needs to scan all newly created `notes` on the privacy smart contract
 to recognize which one belongs to him.
 `Bob` uses his private view key to decode the encrypted transaction amount. 
-A proof-of-concept code for the privacy contract can be found [here](https://github.com/taoblockchain/privacy-sc).
+A proof-of-concept code for the privacy contract can be found [here](https://github.com/Tao-Network/privacy-sc).
 
 Due to the math complexity of RingCT and Bulletproofs, we omit the construction algorithms for those proofs here
 and will detail them in Tao's tech blog.
@@ -328,7 +328,7 @@ spend keys to make transactions.
 
 On-going development Github repositories for TaoP
 
-1. [https://github.com/taoblockchain/privacy-sc](https://github.com/taoblockchain/privacy-sc) - contains privacy and utility contract solidity code
-2. [https://github.com/taoblockchain/taop](https://github.com/taoblockchain/taop) - contains source code for precompiled contracts
-3. [https://github.com/taoblockchain/taowallet-web-testnet](https://github.com/taoblockchain/taowallet-web-testnet) - proof-of-concept web wallet
-5. [https://github.com/taoblockchain/privacyjs](https://github.com/taoblockchain/privacyjs) - SDK for TaoP to make anonymous transactions
+1. [https://github.com/Tao-Network/privacy-sc](https://github.com/Tao-Network/privacy-sc) - contains privacy and utility contract solidity code
+2. [https://github.com/Tao-Network/taop](https://github.com/Tao-Network/taop) - contains source code for precompiled contracts
+3. [https://github.com/Tao-Network/taowallet-web-testnet](https://github.com/Tao-Network/taowallet-web-testnet) - proof-of-concept web wallet
+5. [https://github.com/Tao-Network/privacyjs](https://github.com/Tao-Network/privacyjs) - SDK for TaoP to make anonymous transactions

@@ -16,7 +16,7 @@ set GOPATH=$HOME/go
 ```
     
 ## Prepare tao client software
-   - ```cd $GOPATH/src/github.com/taoblockchain/tao2```
+   - ```cd $GOPATH/src/github.com/Tao-Network/tao2```
    - Download source code and build
 
 ```
@@ -29,9 +29,9 @@ make all
    - Create shortcuts/alias for easier access
    
 ```
-alias tao=$GOPATH/src/github.com/taoblockchain/tao2/build/bin/tao
-alias bootnode=$GOPATH/src/github.com/taoblockchain/tao2/build/bin/bootnode
-alias puppeth=$GOPATH/src/github.com/taoblockchain/tao2/build/bin/puppeth
+alias tao=$GOPATH/src/github.com/Tao-Network/tao2/build/bin/tao
+alias bootnode=$GOPATH/src/github.com/Tao-Network/tao2/build/bin/bootnode
+alias puppeth=$GOPATH/src/github.com/Tao-Network/tao2/build/bin/puppeth
 ```   
         
 ## Setup chain data folders `datadir` and corresponding `keystore` folders for 3 masternodes
@@ -209,7 +209,7 @@ tao  --syncmode "full" \
 --targetgaslimit: Target gas limit sets the artificial target gas floor for the blocks to mine (default: 4712388)
 --bootnode: bootnode information to help to discover other nodes in the network
 --gcmode: blockchain garbage collection mode ("full", "archive")
---synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/taoblockchain/tao2/blob/master/eth/downloader/modes.go#L24)
+--synmode: blockchain sync mode ("fast", "full", or "light". More detail: https://github.com/Tao-Network/tao2/blob/master/eth/downloader/modes.go#L24)
 ```
    To see all flags usage
    

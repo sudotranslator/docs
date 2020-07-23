@@ -167,7 +167,7 @@ For instance, increasing the transaction fees for smart contract creation. The m
 Tao isn't a company.  Tao isn't a foundation.  Tao is a decentralized, autonomous organization.  For legal purposes it is considered an unincorporated association with global membership comprised of those who own the Tao token.
 
 #### Where can I take a look at Tao code? Is there a GitHub repository?
-Yes, Tao is an open source blockchain project and all the code is available on our [GitHub](https://github.com/taoblockchain/tao2).
+Yes, Tao is an open source blockchain project and all the code is available on our [GitHub](https://github.com/Tao-Network/tao2).
 This includes the code for the Tao blockchain client, governance DApp, block explorer, tools, docker images, documentation, etc.
 
 
@@ -175,7 +175,7 @@ This includes the code for the Tao blockchain client, governance DApp, block exp
 If you need support, please contact us on one of these platforms:
 
 - Technical talk and support running our softwares: [Gitter (https://gitter.im/taoblockchain)](https://gitter.im/taoblockchain)
-- Bugs or technical contributions: [GitHub (https://github.com/taoblockchain/tao2)](https://github.com/taoblockchain/tao2)
+- Bugs or technical contributions: [GitHub (https://github.com/Tao-Network/tao2)](https://github.com/Tao-Network/tao2)
 - General quotes regarding our blockchain: [Telegram (https://t.me/taoblockchain)](https://t.me/taoblockchain)
 
 #### Which are Tao's official channels for communication and information?
