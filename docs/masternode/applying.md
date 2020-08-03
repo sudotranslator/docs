@@ -33,7 +33,7 @@ If your are running your node with `taomn`, you can simply run `taomn inspect` t
 !!! note "Important note:"
 	We advise for security measures to use a fresh new account for your masternode or 'coinbase address'.
 	This is not the account that will receive the rewards.
-	The rewards are sent to the account that will make the 50k TAO initial deposit.
+	The rewards are sent to the account that will make the 100k TAO initial deposit.
 
 Confirm with apply and proceed to make the payment.
 
