@@ -11,7 +11,7 @@ To have a masternode candidate, the following requirements must be satisfied:
 - The token holder has an up and running node -- see our [documentation](https://docs.tao.network/masternode/taomn/).
 
 - The token holder must hold a minimum required amount of tokens (100,00 TAO).
-These 100,00 TAO are deposited to the Voting Smart Contract.
+These 100,000 TAO are deposited to the Voting Smart Contract.
 
 - Must be one of the 150 most voted masternode candidates in the system.
 The voting by token holders is credited through a Voting DApp that allows token holders to send TAO through the smart contract mechanism.
