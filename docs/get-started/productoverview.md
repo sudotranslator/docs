@@ -9,7 +9,7 @@ The backbone of Tao's ecosystem is the Tao 2.0 blockchain protocol with its inno
 
 * **TaoScan**: TaoScan provides a user friendly, details and perfection-oriented user interface for the Tao blockchain. From a user's perspective, TaoScan brings Tao’s transparency to users because all block, transaction, finality, smart contracts, dApp and token information are read from Tao and shown to users. Furthermore, TaoScan also offers technical visualisations and shows useful statistics about Tao's performance, token holders and other metrics.
 
-* **Shifu**: The `Governance dApp` - Shifu (Chinese for "Master") provides a professional UI that allows users to see the list of masternodes and candidates, to deposit 100,000 TAO to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
+* **Shifu**: The `Governance dApp` - Shifu (Chinese for "Master") provides a professional UI that allows users to see the list of masternodes and candidates, to deposit 100,0000 TAO to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
 
 * **Waihui**: Waihui (Chinese for "Forex") is a decentralized exchange protocol designed for Tao-based tokens directly integrated into the core layer of the Tao blockchain. Decentralized exchanges called relayers built following the Waihui standard will all interact with Waihui.
 

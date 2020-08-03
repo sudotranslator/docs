@@ -39,7 +39,7 @@ Security, stability and chain finality are guaranteed via novel techniques such 
 #### Can you tell more about Delegated Proof of Stake (DPOS)? What is it?
 At the heart of Tao, the Delegated Proof-of-Stake (DPOS) consensus mechanism enables Tao as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmation.
 
-DPOS features its Masternode architecture in which token holders deposit 100,000 TAO to become a masternode candidate and receive votes from other token holders.
+DPOS features its Masternode architecture in which token holders deposit 100,0000 TAO to become a masternode candidate and receive votes from other token holders.
 The most voted masternode candidates are selected as masternodes for block creation within a period, called an epoch.
 Each masternode takes its block creation in a round-robin manner every 5 seconds and follows the double validation technique for security reinforcement.
 A block is finalised if it is signed off by 3/4 of masternodes.
@@ -226,7 +226,7 @@ Masternodes and Stakers will receive block rewards in TAO.
 #### What is TAO circulating supply and total supply?
 The initial circulating supply at the Tao 1.0 genesis block was 33,000,000.  Since launch, the network has generated roughly another 1,000,000 tokens via consensus. Another 21,000,000 tokens were minted with the migration to Tao 2.0 and sold on the open market to raise intial funds, bringing the circulating total to 200,000,000, however the current circulating supply is increasing every epoch.
 
-After 8 years, TAO's total supply is fixed at 100,000,000 TAO.
+After 8 years, TAO's total supply is fixed at 100,0000,000 TAO.
 
 #### How is TAO distributed?
 The token allocation is splitted as follows:
@@ -309,7 +309,7 @@ You can currently purchase TAO on Alt.Market and QTrade.io.
 #### Does Tao have Masternodes? How do they work?
 Yes, Tao has a maximum of 150 Masternodes with Delegated Proof of Stake (DPOS) consensus with low transaction fees, and instant transaction confirmations. Masternodes create, verify and validate new blocks on Tao’s blockchain.
 
-- **Masternode Candidates:** Any account can deposit 100,000 TAO using [Shifu](https://shifu.tao.network/) to become a masternode candidate.
+- **Masternode Candidates:** Any account can deposit 100,0000 TAO using [Shifu](https://shifu.tao.network/) to become a masternode candidate.
 A candidate can resign, but the tokens will be locked for the next 30 days (1,296'000 blocks) after the resignation.
 - **Becoming a Masternode:** A candidate becomes a masternode when he/she belongs to the top 150 most voted candidates in each epoch.
 A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.

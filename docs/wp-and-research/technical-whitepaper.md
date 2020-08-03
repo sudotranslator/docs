@@ -60,7 +60,7 @@ In addition to the voting system which is an improvement over the current Bitcoi
 
 Token holder is as simple as its name: users who join the network, who own and transfer TAO. Masternodes are full-nodes which maintain a copy of the blockchain, produce blocks and keep the chain consistent. It is worth noting that **Tao** is an extremely energy efficient cryptocurrency platform, as it does not use costly dedicated mining equiment as is required by Proof-of-Work-based blockchain systems.  Only masternodes can produce and validate blocks, and in a mechanism known as Delegated Proof of Stake.
 
-Masternodes are selected via where token holders vote for block producers via an amount of TAO called a Delegate. The first requirement of being masternodes is to deposit 100,000TAO to the Voting Smart Contract. These depositors are listed as masternode candidates in the Voting DApp, which allows token holders to vote for them by sending a Delegate to the smart contract in the name of that masternode.
+Masternodes are selected via where token holders vote for block producers via an amount of TAO called a Delegate. The first requirement of being masternodes is to deposit 100,0000TAO to the Voting Smart Contract. These depositors are listed as masternode candidates in the Voting DApp, which allows token holders to vote for them by sending a Delegate to the smart contract in the name of that masternode.
 
 Masternodes which process valid states to create and verify blocks will be incentivized with TAO. Furthermore, token holders who vote for these incentivized masternodes will also receive TAO in proportion to the amount of their Delegate. 
 
@@ -68,7 +68,7 @@ The list of masternode candidates is dynamically sorted based on Delegate counts
 
 ###Voting & Masternode Pool {#voting-masternode-pool .unnumbered}
 
-There are maximum one hundred fifty (150) masternodes elected in the masternode pool. The required amount of deposit for masternode role is set at 100,000TAO. This amount is locked in a *voting smart contract*. Once a masternode is demoted (by not remaining in the top one hundred fifty voted masternodes) or intentionally quits the masternode candidates list/masternode pool, the deposit will have been locked for a month.
+There are maximum one hundred fifty (150) masternodes elected in the masternode pool. The required amount of deposit for masternode role is set at 100,0000TAO. This amount is locked in a *voting smart contract*. Once a masternode is demoted (by not remaining in the top one hundred fifty voted masternodes) or intentionally quits the masternode candidates list/masternode pool, the deposit will have been locked for a month.
 
 Token holders can vote at any time, by any number of votes (which is actually counted by the amount of TAO they bet on some masternode candidates). They can use masternode’s performance statistics in the governance *Voting DApp* as reference information to give votes. The set of masternodes is dynamically sorted by the amount of TAO and counted up to one hundred fifty, upon reception of votes.
 
