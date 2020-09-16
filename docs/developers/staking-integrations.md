@@ -1,7 +1,7 @@
 Masternodes and stakers is stored and governared in [Tao Validator smart contract](https://scan.tao.network/address/0x0000000000000000000000000000000000000088):
 
-- Smart Contract Code: [Tao Validator](https://github.com/Tao-Network/shifu/blob/master/contracts/TaoValidator.sol)
-- Smart Contract ABI: [TaoValidatorAbi.json](https://raw.githubusercontent.com/taoblockchain/shifu/master/abis/TaoValidatorAbi.json)
+- Smart Contract Code: [Tao Validator](https://github.com/Tao-Network/tao2/blob/master/contracts/validator/contract/TaoValidator.sol)
+- Smart Contract ABI: [TaoValidatorAbi.json](https://raw.githubusercontent.com/tao-network/shifu/master/abis/TaoValidatorAbi.json)
 
 Tao Validator Smart Contract Interface:
 ```javascript
@@ -72,7 +72,7 @@ const validator = new web3.eth.Contract(validatorAbi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TaoValidatorAbi.json [here](https://raw.githubusercontent.com/taoblockchain/shifu/master/abis/TaoValidatorAbi.json)
+Note: you can get TaoValidatorAbi.json [here](https://raw.githubusercontent.com/tao-network/shifu/master/abis/TaoValidatorAbi.json)
 
 ## Propose/Apply a candidate
 Masternode owner need to have at least 100000 TAO to apply a fullnode to become a Masternode candidate. So make sure you have > 100000 TAO in your masternode owner wallet to deposit to the smart contract and pay transaction fee.
@@ -96,7 +96,7 @@ validator.methods.propose(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-You can refer to [Staking Tao script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
+You can refer to [Staking Tao script](https://gist.github.com/taoblockchain/6602bb067a82b27e6111ff133c3d8beb)
 ## Stake/Vote a candidate
 You can stake at least 100 TAO for a node by calling `vote` function from the smart contract.
 
