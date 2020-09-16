@@ -10,8 +10,8 @@ A Tao masternode is a server which uses its computing power to
 contribute to the network. Its job is to create and sign blocks. 
 For this contribution to the network, masternodes receive rewards in 
 the form of TAO.
-A masternode must satisfy the [minimum requirements](https://taoblockchain.github.io/docs/masternode/requirements/) regarding computing power, RAM and storage in order to stably maintain the network. A financial requirement of 50k TAO is also needed to apply to become a masternode candidate.
-A financial requirement of 50k TAO is also needed to [apply](https://taoblockchain.github.io/docs/masternode/applying/) 
+A masternode must satisfy the [minimum requirements](https://taoblockchain.github.io/docs/masternode/requirements/) regarding computing power, RAM and storage in order to stably maintain the network. A financial requirement of 100k TAO is also needed to apply to become a masternode candidate.
+A financial requirement of 100k TAO is also needed to [apply](https://taoblockchain.github.io/docs/masternode/applying/) 
 to become a masternode candidate.
 For this, masternode owners should carefully read our dedicated guide to [running a masternode](https://taoblockchain.github.io/docs/masternode/masternode-setup-guide/), 
 using [taomn](https://taoblockchain.github.io/docs/masternode/tmn/) and [Docker](https://taoblockchain.github.io/docs/masternode/docker/).
