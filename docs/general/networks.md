@@ -41,11 +41,11 @@ The Testnet network is meant to be a public demo of our products and a way for u
 
 ### Specifications
 
-- Chain id: `89`
+- Chain id: `559`
 - RPC endpoint: `https://rpc.testnet.tao.network`
 - Websocket endpoint:  `wss://rpc.testnet.tao.network`
 - Metrics endpoint: `https://stats.testnet.tao.network`
-- HD derivation path: `m/44'/889'/0'/0/`
+- HD derivation path: `m/44'/559'/0'/0/`
 - Consensus: DPOS
 - Block finality: `>75%`
 - Consensus nodes: up to 150 (masternodes)
