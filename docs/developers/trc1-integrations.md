@@ -1,6 +1,6 @@
 This tutorial is a guide for a developer who wants to know how to integrate TRC20 token to applications (e.g. wallet, exchange)
 
-Smart Contract ABI: [TRC20.json](https://raw.githubusercontent.com/taoblockchain/trc1/master/TRC20.json)
+Smart Contract ABI: [TRC20.json](https://raw.githubusercontent.com/Tao-Network/trc20/master/TRC20.json)
 
 TRC20 Contract Interface:
 ```javascript
@@ -27,7 +27,7 @@ You can take a look to [Tao Networks](https://docs.tao.network/general/networks/
 ```javascript
 const Web3 = require('web3')
 const web3 = new Web3('https://rpc.tao.network')
-const chainId = 88
+const chainId = 558
 ```
 
 ## Unlock wallet
@@ -103,4 +103,4 @@ trc1.methods.transfer(to, '500000000000000000000').send({
 
 ```
 
-You can refer to [Transfer TRC20 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc)
+You can refer to [Transfer TRC20 script](https://gist.github.com/taoblockchain/998a1fc76ceed4fa80b5f9116cef147d)
