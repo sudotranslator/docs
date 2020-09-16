@@ -17,7 +17,6 @@ event Transfer(address indexed from, address indexed to, uint256 value);
 event Approval(address indexed owner, address indexed spender, uint256 value);
 event Fee(address indexed from, address indexed to, address indexed issuer, uint256 value);
 ```
-Refer to [TRC21 Specification](https://docs.tao.network/wp-and-research/specs/trc2_standard/)
 
 Tao provides RPC APIs. So you can use Web3 library to directly call the functions in the smart contract.
 
