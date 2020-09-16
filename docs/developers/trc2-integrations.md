@@ -1,6 +1,6 @@
 This tutorial is a guide for a developer who wants to know how to integrate TRC21 token to applications (e.g., wallet, exchange)
 
-Smart Contract ABI: [TRC21.json](https://raw.githubusercontent.com/taoblockchain/trc2/master/TRC21.json)
+Smart Contract ABI: [TRC21.json](https://raw.githubusercontent.com/Tao-Network/trc21/master/TRC21.json)
 
 TRC21 Contract Interface:
 ```javascript
@@ -31,7 +31,7 @@ You can take a look to [Tao Networks](https://docs.tao.network/general/networks/
 ```javascript
 const Web3 = require('web3')
 const web3 = new Web3('https://rpc.tao.network')
-const chainId = 88
+const chainId = 558
 ```
 
 ## Unlock wallet
@@ -54,7 +54,7 @@ const trc2 = new web3.eth.Contract(trc2Abi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TRC21.json [here](https://raw.githubusercontent.com/taoblockchain/trc2/master/TRC21.json)
+Note: you can get TRC21.json [here](https://raw.githubusercontent.com/Tao-Network/trc21/master/TRC21.json)
 
 ## Check balance
 You need to call function `balanceOf()` from TRC21 contract to check your token balance for an address.
@@ -98,4 +98,4 @@ trc2.methods.transfer(to, '500000000000000000000').send({
 }).catch(e => console.log(e))
 ```
 
-You can take a look to this example [Transfer TRC21 token](https://gist.github.com/thanhson1085/03e983e933dc9cbf7a3d5c88ef503b18)
+You can take a look to this example [Transfer TRC21 token](https://gist.github.com/taoblockchain/1c2ac512df7ebfd08af20554628e3a07)
