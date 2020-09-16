@@ -313,7 +313,7 @@ and will detail them in Tao's tech blog.
 
 ## Private token standard
 TaoP is designed to support private tokens issued on Tao.
-A new private token standard TRC2P will be supportec by extending the TRC2 token standard. 
+A new private token standard TRC2P will be supportec by extending the TRC21 token standard. 
 
 ## Regulatory compliance
 By using a dual-key-like system, any user could register her/his private view key to an authorized authority.

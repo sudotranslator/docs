@@ -274,9 +274,9 @@ Tao is currently traded on Alt.Market and QTrade.io
 #### Is TAO an ERC-20 token?
 No. TAO is the native coin of the Tao blockchain.
 
-#### What is a TRC1 token?
-A TRC1 token is a token which can be issued on the Tao blockchain.
-TRC1 is similar to the ERC-20 standard in the Ethereum  blockchain.
+#### What is a TRC20 token?
+A TRC20 token is a token which can be issued on the Tao blockchain.
+TRC20 is similar to the ERC-20 standard in the Ethereum  blockchain.
 
 #### Where to store TAO? How can I send TAO to my wallet?
 You can store TAO in TaoWallet, TrustWallet, MetaMask, and soon Ledger and Trezor.

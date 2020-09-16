@@ -19,15 +19,15 @@ By using TaoIssuer, you represent and warrant that you meet all eligibility requ
 
 3.1. You may use TaoIssuer under these Terms of Use and receive the following services (“Services”):
 
-a) Token issuance tool that allows you to issue TRC2 tokens
-TaoIssuer provides a dashboard for any token issuer to issue a TRC2 token on Tao by only configuring some parameters such as token supply, token name and minimum transaction fee. Through the dashboard, a token issuer can deploy a TRC2 token on Tao without any coding experience. 
+a) Token issuance tool that allows you to issue TRC21 tokens
+TaoIssuer provides a dashboard for any token issuer to issue a TRC21 token on Tao by only configuring some parameters such as token supply, token name and minimum transaction fee. Through the dashboard, a token issuer can deploy a TRC21 token on Tao without any coding experience. 
 
 b, TaoZ protocol application allows token to be paid transaction fee by token itself
 Once deployed, the issuer needs to claim to the network that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. The dashboard provides a convenient graphical interface for the issuer to make the claim transaction. 
 
 3.2. Any fee that you might pay while using the Services is not a remuneration of the Company for the Services. This fee is to pay for Masternodes who produces the block to maintain the Tao blockchain. 
 
-3.3. The Company provides you with technical opportunity to issue TRC2 tokens, you are the only person who is liable for any losses, damages, claims related to the issuance of Tokens. The Company assumes no responsibility or liability related to your issuance of Tokens or your transfer of Tokens issued via TaoIssuer.
+3.3. The Company provides you with technical opportunity to issue TRC21 tokens, you are the only person who is liable for any losses, damages, claims related to the issuance of Tokens. The Company assumes no responsibility or liability related to your issuance of Tokens or your transfer of Tokens issued via TaoIssuer.
 
 ### RISK WARNING 
 TaoIssuer will not be responsible for any losses, damages or claims arising from events falling within the scope of the following five categories:

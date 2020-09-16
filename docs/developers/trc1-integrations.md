@@ -1,8 +1,8 @@
-This tutorial is a guide for a developer who wants to know how to integrate TRC1 token to applications (e.g. wallet, exchange)
+This tutorial is a guide for a developer who wants to know how to integrate TRC20 token to applications (e.g. wallet, exchange)
 
-Smart Contract ABI: [TRC1.json](https://raw.githubusercontent.com/taoblockchain/trc1/master/TRC1.json)
+Smart Contract ABI: [TRC20.json](https://raw.githubusercontent.com/taoblockchain/trc1/master/TRC20.json)
 
-TRC1 Contract Interface:
+TRC20 Contract Interface:
 ```javascript
 function totalSupply() public view returns (uint);
 function balanceOf(address tokenOwner) public view returns (uint balance);
@@ -33,7 +33,7 @@ const chainId = 88
 ## Unlock wallet
 To create a wallet, you can refer to [Create wallet page](https://docs.tao.network/developers/integrations/#create-wallet)
 
-You need to unlock the wallet before interact TRC1 contract
+You need to unlock the wallet before interact TRC20 contract
 #### Example
 ```javascript
 // Unlock wallet by private key
@@ -43,19 +43,19 @@ web3.eth.accounts.wallet.add(account)
 web.eth.defaultAccount = holder
 ```
 
-## Init Web3 TRC1 Contract
+## Init Web3 TRC20 Contract
 
 ```javascript
-const trc1Abi = require('./TRC1.json')
+const trc1Abi = require('./TRC20.json')
 const address = '[enter_your_contract_address]'
 const trc1 = new web3.eth.Contract(trc1Abi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TRC1.json [here](https://raw.githubusercontent.com/taoblockchain/trc1/master/TRC1.json)
+Note: you can get TRC20.json [here](https://raw.githubusercontent.com/taoblockchain/trc1/master/TRC20.json)
 
 ## Check balance
-You need to call function `balanceOf()` from TRC1 contract to check your token balance for an address.
+You need to call function `balanceOf()` from TRC20 contract to check your token balance for an address.
 
 #### Example
 ```javascript
@@ -103,4 +103,4 @@ trc1.methods.transfer(to, '500000000000000000000').send({
 
 ```
 
-You can refer to [Transfer TRC1 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc)
+You can refer to [Transfer TRC20 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc)

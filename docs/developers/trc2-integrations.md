@@ -1,8 +1,8 @@
-This tutorial is a guide for a developer who wants to know how to integrate TRC2 token to applications (e.g., wallet, exchange)
+This tutorial is a guide for a developer who wants to know how to integrate TRC21 token to applications (e.g., wallet, exchange)
 
-Smart Contract ABI: [TRC2.json](https://raw.githubusercontent.com/taoblockchain/trc2/master/TRC2.json)
+Smart Contract ABI: [TRC21.json](https://raw.githubusercontent.com/taoblockchain/trc2/master/TRC21.json)
 
-TRC2 Contract Interface:
+TRC21 Contract Interface:
 ```javascript
 function totalSupply() external view returns (uint256);
 function balanceOf(address who) external view returns (uint256);
@@ -17,7 +17,7 @@ event Transfer(address indexed from, address indexed to, uint256 value);
 event Approval(address indexed owner, address indexed spender, uint256 value);
 event Fee(address indexed from, address indexed to, address indexed issuer, uint256 value);
 ```
-Refer to [TRC2 Specification](https://docs.tao.network/wp-and-research/specs/trc2_standard/)
+Refer to [TRC21 Specification](https://docs.tao.network/wp-and-research/specs/trc2_standard/)
 
 Tao provides RPC APIs. So you can use Web3 library to directly call the functions in the smart contract.
 
@@ -35,7 +35,7 @@ const chainId = 88
 ```
 
 ## Unlock wallet
-You need to unlock the wallet before interact TRC2 contract
+You need to unlock the wallet before interact TRC21 contract
 #### Example
 ```javascript
 // Unlock wallet by private key
@@ -45,19 +45,19 @@ web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = holder
 ```
 
-## Init Web3 TRC2 Contract
+## Init Web3 TRC21 Contract
 
 ```javascript
-const trc2Abi = require('./TRC2.json')
+const trc2Abi = require('./TRC21.json')
 const address = '[enter_your_contract_address]'
 const trc2 = new web3.eth.Contract(trc2Abi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TRC2.json [here](https://raw.githubusercontent.com/taoblockchain/trc2/master/TRC2.json)
+Note: you can get TRC21.json [here](https://raw.githubusercontent.com/taoblockchain/trc2/master/TRC21.json)
 
 ## Check balance
-You need to call function `balanceOf()` from TRC2 contract to check your token balance for an address.
+You need to call function `balanceOf()` from TRC21 contract to check your token balance for an address.
 
 #### Example
 ```javascript
@@ -68,7 +68,7 @@ trc2.methods.balanceOf(holder).call()
 ```
 
 ## Estimate fee
-Before sending tokens, we need to check TX fee by calling `estimateFee` function in TRC2 smart contract.
+Before sending tokens, we need to check TX fee by calling `estimateFee` function in TRC21 smart contract.
 
 #### Example
 ```javascript
@@ -78,7 +78,7 @@ trc2.methods.estimateFee().call()
 }).catch(e => console.log(e))
 ```
 
-Note: this fee is amount token you need to pay to send TRC2 token that applied TaoZ
+Note: this fee is amount token you need to pay to send TRC21 token that applied TaoZ
 
 ## Transfer token
 Token holder needs to call function `transfer` to send token to an address
@@ -98,4 +98,4 @@ trc2.methods.transfer(to, '500000000000000000000').send({
 }).catch(e => console.log(e))
 ```
 
-You can take a look to this example [Transfer TRC2 token](https://gist.github.com/thanhson1085/03e983e933dc9cbf7a3d5c88ef503b18)
+You can take a look to this example [Transfer TRC21 token](https://gist.github.com/thanhson1085/03e983e933dc9cbf7a3d5c88ef503b18)

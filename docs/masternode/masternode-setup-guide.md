@@ -363,7 +363,7 @@ Name: taomn
 Version: 0.5
 Summary: Quickstart your masternode
 Home-page: https://tao.network
-Author: Etienne Napoleone
+Author: bryce Napoleone
 Author-email: info@tao.network
 License: GPL-3.0+
 Location: /home/michael/.local/lib/python3.6/site-packages

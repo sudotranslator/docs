@@ -17,7 +17,7 @@ The backbone of Tao's ecosystem is the Tao 2.0 blockchain protocol with its inno
 
 * **Dai**: Dai (Chinese for "Bags") is the official mobile wallet for Tao, aiming to store the TAO native coin and tokens issued on Tao. Dai also allows users to vote for masternodes and track rewards.
 
-* **Ren**: Ren (Chinese for "Benevolence") provides a friendly UI and a smart contract which allows any user to issue a TRC2 token and apply the token to the ShuiDAO protocol in minutes without any programming skills required.
+* **Ren**: Ren (Chinese for "Benevolence") provides a friendly UI and a smart contract which allows any user to issue a TRC21 token and apply the token to the ShuiDAO protocol in minutes without any programming skills required.
 
 * **TaoJiao**: TaoJiao (Chinese for "Pool") is a decentralized smart contract alternative implementation of the Shifu protocol providing for the automated Delegation of the most profitable masternodes
 

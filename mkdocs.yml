@@ -84,8 +84,8 @@ nav:
         - Integrations:
           - TAO Exchange/Wallet: developers/integrations.md
           - Tao Staking Governance: developers/staking-integrations.md
-          - TRC1 Exchange/Wallet: developers/trc1-integrations.md
-          - TRC2 Exchange/Wallet: developers/trc2-integrations.md
+          - TRC20 Exchange/Wallet: developers/trc1-integrations.md
+          - TRC21 Exchange/Wallet: developers/trc2-integrations.md
         - Working with Tao:
            - Tao private testnet setup: developers/tutoprivatenet.md
            - Useful manual CLI commands: developers/clicommands.md
@@ -97,7 +97,7 @@ nav:
       - Technical whitepaper: wp-and-research/technical-whitepaper.md
       - Economics paper: wp-and-research/economics-paper.md
       - Standard & Specification:
-          - TRC2 Specification: wp-and-research/specs/trc2_standard.md
+          - TRC21 Specification: wp-and-research/specs/trc2_standard.md
       - TaoP whitepaper: wp-and-research/privacy.md
     - Ecosystem:
       - Shifu: ecosystem/shifu/features.md

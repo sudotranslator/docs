@@ -1,6 +1,6 @@
-# Tao Request for Comment: TRC2 Token Standard 
+# Tao Request for Comment: TRC21 Token Standard 
 
-| Standard Name | TRC2             |
+| Standard Name | TRC21             |
 |---------------|--------------------|
 | Author        | Tao R&D Team |
 | Category      | Token Standard     |
@@ -16,15 +16,15 @@ Tokens issued on Tao following this standard allows token holders to pay fee for
 to the token contract in terms of the token itself.
 
 ## Motivation
-A standard token interface that extends TRC1 standard in order to allow 
+A standard token interface that extends TRC20 standard in order to allow 
 holders of a token issued following this standard to make transactions without the need of 
 holding TAO in the wallet for paying transaction fees.
 
-## TRC2 Specification
+## TRC21 Specification
 
 ```
 /**
- * @title TRC2 interface
+ * @title TRC21 interface
  */
 interface ITRC2 {
 	function totalSupply() external view returns (uint256);
@@ -42,7 +42,7 @@ interface ITRC2 {
 }
 ```
 
-### TRC2 API specification
+### TRC21 API specification
 
 - `totalSupply`: Returns the token total supply.
 
@@ -56,7 +56,7 @@ function balanceOf(address who) external view returns (uint256);
 ```
 
 - ```estimateFee```: Estimate the transaction fee in terms of the token that the transaction makers will have to pay.
-Transaction fee will be paid to the issuer of the TRC2 token contract following our TaoZ protocol detailed in [here](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?usp=sharing).
+Transaction fee will be paid to the issuer of the TRC21 token contract following our TaoZ protocol detailed in [here](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?usp=sharing).
 
 ```solidity	
 function estimateFee(uint256 value) external view returns (uint256);
@@ -122,7 +122,7 @@ function transferFrom(address from, address to, uint256 value) external returns 
 Transfers `value` amount of tokens from address `from` to address `to`.
 The function must fire the ```Transfer``` and ```Fee``` event.
 
-### TRC2 Event specification
+### TRC21 Event specification
 
 - `Transfer`
 
@@ -152,7 +152,7 @@ its users about the paid transaction fee in terms of token.
 ### Implementation
 
 The following implements the basis of the standard. 
-For any implementation of the TRC2 standard, the following contract fields must be defined at the beginning of the contract.
+For any implementation of the TRC21 standard, the following contract fields must be defined at the beginning of the contract.
 
 ```solidity
 mapping (address => uint256) private _balances;
@@ -160,7 +160,7 @@ uint256 private _minFee;
 address private _issuer;
 ```
 
-This template allows the TaoZ protocol to consider the implemented token as TRC2 and any fees paid for transactions to 
+This template allows the TaoZ protocol to consider the implemented token as TRC21 and any fees paid for transactions to 
 the token contract will be based on the token, not TAO.
 
 - ```_balances```: record the balance of each token holder
@@ -176,10 +176,10 @@ The implementation also defines some additional functions as follows:
 
 ```solidity
 /**
- * @title Standard TRC2 token
+ * @title Standard TRC21 token
  * @dev Implementation of the basic standard token.
  */
-contract TRC2 is ITRC2 {
+contract TRC21 is ITRC2 {
     using SafeMath for uint256;
 
     mapping (address => uint256) private _balances;
@@ -335,13 +335,13 @@ contract TRC2 is ITRC2 {
 }
 ```
 
-### TRC2 Token example
+### TRC21 Token example
 
-The following shows an example of a TRC2 token which inherits from the TRC2 implementation.
+The following shows an example of a TRC21 token which inherits from the TRC21 implementation.
 Token name, symbol, and decimals are also defined.
 
 ```solidity
-contract MyTRC2 is TRC2 {
+contract MyTRC2 is TRC21 {
     string private _name;
     string private _symbol;
     uint8 private _decimals;
