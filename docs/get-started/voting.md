@@ -11,14 +11,7 @@ With a connected wallet, it's now time to try voting for some masternodes.
 The Tao Testnet is only to be used for experimentation and development. Coins on the testnet have no value on the production chain and have no market value of their own.
 
 
-### Using TaoWallet
-
-TaoWallet provides a function called `Earn TAO to test`. It allows you to get 15 TAO on the Testnet. Just click on it and you will see your balance go up.
-
-!!! note
-    You can use this function only once. You then have to use the faucet for any extra Testnet TAO needed.
-
-### Other options of obtaining some Tao to use on the testnet
+### Using the Faucet 
 
 We also have a service called "Faucet" which allows you to get 15 TAO at a time.
 
