@@ -168,7 +168,7 @@ Note that, for simplification of illustration:
 With these assumptions, all validators receive the same divided reward (R) and the same infrastructure reward. 
 Furthermore, the reward for Voters with 1k voted TAO is equal regardless of which the amount is voted for.
 
-### Scenario 1: 50 Validators, 2.5 million token voting, a total of 5 million token locked.
+### Scenario 1: 50 Validators, 2.5 million token voting, a total of 7.5 million token locked.
 
 N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 5 000 000 / 50 = 100k$ TAO
 
@@ -202,9 +202,9 @@ Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.5$ TAO
 
 -   Total reward per MN with D = 100k deposited: 35 040 + 43 800 = 78 840 TAO
 
-### Scenario 2: 100 Validators, 3 million token voting, a total of 8 million token locked.
+### Scenario 2: 100 Validators, 3 million token voting, a total of 13 million token locked.
 
-N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 8 000 000 / 100 = 80k$ TAO
+N = 100, X = 360, $S_1 = S_2 = .. = S_{100} = 13 000 000 / 100 = 130k$ TAO
 
 $C_1 = C_2 = .. = C_{100}$
 
@@ -236,9 +236,9 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.6$ TAO
 
 -   Total reward per MN with D = 100k deposited: 17 520 + 27 375 = 44875 TAO
 
-### Scenario 3: 150 Validators, 12.5 million token voting, a total of 20 million token locked.
+### Scenario 3: 150 Validators, 12.5 million token voting, a total of 27.5 million token locked.
 
-N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 20 000 000 / 150 = 133 333$ TAO
+N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 27 700 000 / 150 = 183 333.33$ TAO
 
 $C_1 = C_2 = .. = C_{150}$
 
