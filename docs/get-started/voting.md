@@ -48,7 +48,7 @@ Every epoch (~30 minutes), you will automatically receive rewards from each mast
 
 If you do not want to support a masternode you voted for, you can unvote it by clicking the `Unvote` button on the masternode's page and enter the amount of TAO you want to unvote.
 
-After unvoting, your TAO is still locked in the smart contract for 48 hours before you are able to withdraw.
+After unvoting, your TAO is still locked in the smart contract for about 5 days before you are able to withdraw.
 
 ## How to Withdraw
 
