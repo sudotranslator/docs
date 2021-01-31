@@ -50,7 +50,7 @@ If your node is in the top 150 most voted candidates at the checkpoint between t
 ## Resigning your masternode
 In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds.
 Access Shifu, go to your candidate detail page, and click the `Resign` button.
-Your funds will be available to withdraw 30 days after the resignation (518,400 blocks).
+Your funds will be available to withdraw 75 days after the resignation.
 
 After resigning successfully, you can stop your node. If you ran it with `taomn`, simply run:
 ```
