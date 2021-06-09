@@ -168,39 +168,39 @@ Note that, for simplification of illustration:
 With these assumptions, all validators receive the same divided reward (R) and the same infrastructure reward. 
 Furthermore, the reward for Voters with 1k voted TAO is equal regardless of which the amount is voted for.
 
-### Scenario 1: 50 Validators, 2.5 million token voting, a total of 7.5 million token locked.
+### Scenario 1: 50 Validators, 2.5 million token voting, a total of 5 million token locked.
 
 N = 50, X = 360, $S_1 = S_2 = .. = S_{50} = 5 000 000 / 50 = 100k$ TAO
 
 $C_1 = C_2 = .. = C_{50}$
 
-Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.5$ TAO
+Therefore, $R_1 = R_2 = .. = R_{50} = R = X/50 = 7.2$ TAO
 
 #### Reward per epoch:
 
--   MN infrastructure reward = 0.4 * 5 = 2 TAO
+-   MN infrastructure reward = 0.4 * 7.2 = 2.88 TAO
 
--   For Voter with 1k voted = (0.5 * 5 * 1000) / 100k = 0.025 TAO
+-   For Voter with 1k voted = (0.5 * 7.2 * 1000) / 100k = 0.036 TAO
 
--   MN staking reward with 100k TAO deposited: 100 * 0.025 = 2.5 TAO
+-   MN staking reward with 100k TAO deposited: 100 * 0.036 = 3.6 TAO
 
 #### Reward per week: 
    
--   MN infrastructure reward = 336 * 2 = 672 TAO
+-   MN infrastructure reward = 336 * 2.88 = 967.68 TAO
    
--   For Voter with 1k voted = 336 * 0.025 = 8.4 TAO
+-   For Voter with 1k voted = 336 * 0.036 = 12.096 TAO
    
--   MN staking reward with D = 100k TAO deposited: 336 * 2.5 = 840 TAO
+-   MN staking reward with D = 100k TAO deposited: 336 * 2.5 = 1209.6 TAO
 
 #### Reward per year: 
    
--   MN infrastructure reward = 17520 * 2 = 35 040 TAO
+-   MN infrastructure reward = 17520 * 2.88 = 50 457.6 TAO
 
--   For Voter with 1k voted = 17520 * 0.025 = 438 TAO
+-   For Voter with 1k voted = 17520 * 0.036 = 630.72 TAO
 
--   MN staking reward with 100k deposited: 17520 * 2.5 = 43800 TAO
+-   MN staking reward with 100k deposited: 17520 * 3.6 = 63 072 TAO
 
--   Total reward per MN with D = 100k deposited: 35 040 + 43 800 = 78 840 TAO
+-   Total reward per MN with D = 100k deposited: 50 457.6 + 63 072 = 113 529.6 TAO
 
 ### Scenario 2: 100 Validators, 3 million token voting, a total of 13 million token locked.
 
@@ -212,33 +212,33 @@ Therefore, $R_1 = R_2 = .. = R_{100} = R = X/100 = 3.6$ TAO
 
 #### Reward per epoch:
     
--   MN infrastructure reward = 0.4 * 2.5 = 1 TAO
+-   MN infrastructure reward = 0.4 * 3.6 = 1.44 TAO
 
--   For Voter with 1k voted = (0.5 * 2.5 * 1000) / 80k = 0.015625
+-   For Voter with 1k voted = (0.5 * 3.6 * 1000) / 80k = 0.0225
 
--   MN staking reward with D = 100k deposited: 100 * 0.015625 = 1.5625 TAO
+-   MN staking reward with D = 100k deposited: 100 * 0.0225 = 2.25 TAO
 
 #### Reward per week: 
    
--   MN infrastructure reward = 336 * 1 = 336 TAO
+-   MN infrastructure reward = 336 * 1.44 = 483.84 TAO
    
--   For Voter with 1k voted = 336 * 0.015625 = 5.25 TAO
+-   For Voter with 1k voted = 336 * 0.0225 = 7.56 TAO
    
--   MN staking reward with D = 100k deposited: 336 * 1.5625 = 525 TAO
+-   MN staking reward with D = 100k deposited: 336 * 2.25 = 756 TAO
 
 #### Reward per year: 
 
--   MN infrastructure reward = 17520 * 1 = 17 520 TAO
+-   MN infrastructure reward = 17520 * 1.44 = 25 228.8 TAO
 
--   For Voter with 1k voted = 17520 * 0.015625 = 273.75 TAO
+-   For Voter with 1k voted = 17520 * 0.0225 = 394.2 TAO
 
--   MN staking reward with D = 100k deposited: 175 20 * 1.5625 = 27375 TAO
+-   MN staking reward with D = 100k deposited: 17 520 * 2.25 = 39 420 TAO
 
--   Total reward per MN with D = 100k deposited: 17 520 + 27 375 = 44875 TAO
+-   Total reward per MN with D = 100k deposited: 25 228.8 + 39 420 = 64 648.8 TAO
 
 ### Scenario 3: 150 Validators, 12.5 million token voting, a total of 27.5 million token locked.
 
-N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 27 700 000 / 150 = 183 333.33$ TAO
+N = 150, X = 360, $S_1 = S_2 = .. = S_{150} = 27 500 000 / 150 = 183 333.33$ TAO
 
 $C_1 = C_2 = .. = C_{150}$
 
@@ -246,28 +246,28 @@ Therefore, $R_1 = R_2 = .. = R_{150} = R = X/150 = 2.4$ TAO
 
 #### Reward per epoch:
 
--   MN infrastructure reward = 0.4 * 1.6667 = 0.6667 TAO
+-   MN infrastructure reward = 0.4 * 2.4 = 0.96 TAO
 
--   For Voter with 1k voted = (0.5 * 1.6667 * 1000) / 133 333 = 0.00625 TAO
+-   For Voter with 1k voted = (0.5 * 2.4 * 1000) / 183 333 = 0.00655 TAO
     
--   MN staking reward with 100k deposited: 100 * 0.00625 = 0.625 TAO
+-   MN staking reward with 100k deposited: 100 * 0.00655 = 0.655 TAO
 
 #### Reward per week: 
 
--   MN infrastructure reward = 336 * 0.6667 = 224 TAO
+-   MN infrastructure reward = 336 * 0.96 = 322.56 TAO
 
--   For Voter with 1k voted = 336 * 0.00625 = 2.1 TAO
+-   For Voter with 1k voted = 336 * 0.00655 = 2.2 TAO
    
--   MN staking reward with D = 100k deposited: 336 * 0.625 = 210 TAO
+-   MN staking reward with D = 100k deposited: 336 * 0.655 = 220.08 TAO
 
 #### Reward per year: 
    
--   MN infrastructure reward = 17520 * 0.6667 = 11 680 TAO
+-   MN infrastructure reward = 17520 * 0.96 = 16 819.2 TAO
    
--   For Voter with 1k voted = 17520 * 0.00625 = 109.5 TAO
+-   For Voter with 1k voted = 17520 * 0.00655 = 114.76 TAO
    
--   MN staking reward with D = 100k deposited: 175 20 * 0.625 = 10950 TAO
+-   MN staking reward with D = 100k deposited: 175 20 * 0.655 = 11 475.6 TAO
    
--   Total reward per MN with D = 100k deposited: 11 680 + 10 950 = 22630 TAO
+-   Total reward per MN with D = 100k deposited: 16 819.2 + 11 475.6 = 28 294.8 TAO
 
 
